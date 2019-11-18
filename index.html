@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+
+
+<style>
+.formdiv {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 200px;
+  background: white;
+  padding: 20px;
+  background-color: darkcyan;
+}
+input[type=text] {
+  width: 130px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 20px ;
+}
+
+button {
+  padding: 10px 22px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 30px ;
+}
+#eklebutonu {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+#eklebutonu:hover {
+  background-color: #555555;
+  color: white;
+}
+#silbutonu {
+  background-color: white;
+  color: black;
+  border: 2px solid #000;
+  margin: 5px ;
+}
+
+#silbutonu:hover {
+  background-color: #630303;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+    <div class="formdiv">
+    <h1>Yapilacak listesi</h1>
+    <form id="yapilacakForm">
+        <input id="yapilacakGiris" placeholder="Planladiklarinizi giriniz" type="text">
+        <button id="eklebutonu" type="button" onclick="yapilacakListe()">Ekle</button>
+    </form>
+    <ol id="yapilacakListe">
+
+    </ol>
+    <p id="demo"></p>
+    <button id="silbutonu" type="button" onclick="sil()">Sil</button>
+        </div>	
+    <script src="main.js"></script>
+
+</body>
+</html>

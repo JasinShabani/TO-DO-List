@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg");
+    background-color: #cccccc;
+}   
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+eklebutonu {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  eklebutonu:hover {
+    background-color: #bbb;
+  }
