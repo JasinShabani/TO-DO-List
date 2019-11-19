@@ -16,6 +16,8 @@ function yapilacakListe(){
        
             
         }
+	    element.parentNode.remove()
+        document.getElementById("yapilacakListe").appendChild(element.parentNode)
 	}
     if(item== ""){
         alert("Lutfen bir sey giriniz");
